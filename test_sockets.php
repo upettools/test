@@ -1,5 +1,6 @@
 <?php
 if (extension_loaded('sockets')) {
+	//jerry
 	//Create socket IPv4
 	$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) ;
 	if($socket === false) {
